@@ -1,8 +1,28 @@
-# CollapsibleSection
+# Usage in your project
 
-TODO: Delete this and the text below, and describe your gem
+Add to Gemfile:
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/collapsible_section`. To experiment with that code, run `bin/console` for an interactive prompt.
+```Gemfile
+gem 'collapsible_section'
+```
+
+After building and installing the gem, replace your selected code with:
+
+```ruby
+= collapsible_section(t('halo.home.cards.available_test_cycles'), open: true) do
+  = render('onboarding_section_body', course_registration: current_tester.exploratory_module_registration)
+```
+
+
+This will generate the same HTML structure but through a reusable gem component:
+
+```haml
+%details.section-collapsable{open: true}
+              %summary.section-header
+                %h3.section-title
+                 = your_title
+              = your_block
+```
 
 ## Installation
 

@@ -8,11 +8,12 @@ Gem::Specification.new do |spec|
   spec.authors = ["Yaroslav Yenkala"]
   spec.email = ["yaroslav_yenkala@epam.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.add_dependency "rails", ">= 7.0"
+  spec.summary = "Simple collapsible section helper for Rails applications."
+  spec.description = "This gem provides a simple helper method to create collapsible sections in Rails views."
+  spec.homepage = "https://github.com/yaroslavrick/collapsible_section"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 3.1.0"
+  spec.required_ruby_version = ">= 3.3.0"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
