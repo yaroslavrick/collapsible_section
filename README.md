@@ -1,4 +1,8 @@
-# Usage in your project
+# CollapsibleSection
+
+A Rails gem that provides a simple helper method to generate HTML5 `<details>` collapsible sections with consistent styling and structure.
+
+## Usage in your project
 
 Add to Gemfile:
 
