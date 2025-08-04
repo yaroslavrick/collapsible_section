@@ -1,4 +1,6 @@
-## [Unreleased]
+## [0.1.3] - 2025-08-04
+
+- Fixed version conflict
 
 ## [0.1.2] - 2025-08-04
 
