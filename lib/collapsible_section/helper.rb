@@ -7,7 +7,7 @@ module CollapsibleSection
         summary_content = content_tag(:h3, title, class: "section-title")
         concat content_tag(:summary, summary_content, class: "section-header")
         concat capture(&block) if block_given?
-      end
+      end.html_safe
     end
   end
 end

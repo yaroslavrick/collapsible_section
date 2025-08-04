@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    collapsible_section (0.1.0)
+    collapsible_section (0.1.1)
       rails (>= 7.0)
 
 GEM
