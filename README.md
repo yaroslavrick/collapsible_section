@@ -3,16 +3,15 @@
 Add to Gemfile:
 
 ```Gemfile
-gem 'collapsible_section'
+gem 'collapsible_section', '~> 0.1.0'
 ```
 
 After building and installing the gem, replace your selected code with:
 
 ```ruby
-= collapsible_section(t('halo.home.cards.available_test_cycles'), open: true) do
-  = render('onboarding_section_body', course_registration: current_tester.exploratory_module_registration)
+= collapsible_section(t('your_text'), open: true) do
+  = render('some_section_for_block', some_variable_for_block: current_variable)
 ```
-
 
 This will generate the same HTML structure but through a reusable gem component:
 
