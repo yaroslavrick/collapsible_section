@@ -6,7 +6,7 @@ RSpec.describe CollapsibleSection do
   end
 
   it "has the correct version" do
-    expect(CollapsibleSection::VERSION).to eq("0.1.1")
+    expect(CollapsibleSection::VERSION).to eq("0.1.2")
   end
 
   describe "module structure" do

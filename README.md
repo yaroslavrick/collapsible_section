@@ -7,7 +7,7 @@ A Rails gem that provides a simple helper method to generate HTML5 `<details>` c
 Add to Gemfile:
 
 ```Gemfile
-gem 'collapsible_section', '~> 0.1.0'
+gem 'collapsible_section', '~> 0.1.2'
 ```
 
 After building and installing the gem, replace your selected code with:
@@ -43,8 +43,10 @@ gem install collapsible_section
 
 ## Development
 
+```bash
 gem build collapsible_section.gemspec
-gem push collapsible_section-0.1.0.gem
+gem push collapsible_section-0.1.2.gem
+```
 
 ## Contributing
 
