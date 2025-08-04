@@ -1,8 +1,5 @@
 # frozen_string_literal: true
 
-require "rails"
-require "action_view"
-
 # Since the railtie is only loaded when Rails is defined, we need to ensure it's loaded
 require_relative "../lib/collapsible_section/railtie"
 

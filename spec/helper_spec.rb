@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require "action_view"
-
 RSpec.describe CollapsibleSection::Helper do
   # Create an ActionView instance to test the helper
   let(:template) do

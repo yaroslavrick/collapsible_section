@@ -1,8 +1,5 @@
 # frozen_string_literal: true
 
-require "action_view"
-require "rails"
-
 RSpec.describe CollapsibleSection do
   it "has a version number" do
     expect(CollapsibleSection::VERSION).not_to be nil

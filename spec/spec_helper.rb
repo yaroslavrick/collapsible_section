@@ -2,6 +2,7 @@
 
 require "collapsible_section"
 require "action_view"
+require "rails"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
