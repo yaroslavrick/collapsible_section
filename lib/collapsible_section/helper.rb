@@ -4,9 +4,8 @@ module CollapsibleSection
   module Helper
     def collapsible_section(title, open: true, &block)
       content_tag(:details, class: "section-collapsable", open: open) do
-        concat content_tag(:summary, class: "section-header") do
-          content_tag(:h3, title, class: "section-title")
-        end
+        summary_content = content_tag(:h3, title, class: "section-title")
+        concat content_tag(:summary, summary_content, class: "section-header")
         concat capture(&block) if block_given?
       end
     end

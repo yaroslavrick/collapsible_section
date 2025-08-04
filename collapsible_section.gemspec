@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.name = "collapsible_section"
   spec.version = CollapsibleSection::VERSION
   spec.authors = ["Yaroslav Yenkala"]
-  spec.email = ["yaroslav_yenkala@epam.com"]
+  spec.email = ["yaroslavrick@gmail.com"]
 
   spec.add_dependency "rails", ">= 7.0"
   spec.summary = "Simple collapsible section helper for Rails applications."
@@ -20,6 +20,7 @@ Gem::Specification.new do |spec|
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
   spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["rubygems_mfa_required"] = "true"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.

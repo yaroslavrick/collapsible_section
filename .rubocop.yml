@@ -1,5 +1,19 @@
 AllCops:
   TargetRubyVersion: 3.3
+  NewCops: enable
+
+# Allow longer blocks in spec files since RSpec tests naturally have longer blocks
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*_spec.rb'
+    - 'spec/**/spec_helper.rb'
+    - 'Rakefile'
+    - '*.gemspec'
+
+# Allow longer method lengths in spec files for setup methods
+Metrics/MethodLength:
+  Exclude:
+    - 'spec/**/*_spec.rb'
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes

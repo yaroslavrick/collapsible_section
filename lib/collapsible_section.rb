@@ -6,5 +6,4 @@ require_relative "collapsible_section/railtie" if defined?(Rails)
 
 module CollapsibleSection
   class Error < StandardError; end
-  # Your code goes here...
 end
